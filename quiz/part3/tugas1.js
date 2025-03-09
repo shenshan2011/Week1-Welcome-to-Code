@@ -4,18 +4,18 @@
 // menghitung mundur. Jangan lupa tampilkan di console juga judul 'LOOPING PERTAMA' dan 'LOOPING KEDUA'.
 //tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
 
-let i = 2;
+let i = 1;
 
 console.log("LOOP PERTAMA");
 while (i <= 10) {
-    console.log(i);  // Cetak nilai i dulu
-    i += 2;          // Naikkan angka dengan 2
+    console.log(i);  
+    i += 1;         
 }
 
-i = 10;  // Reset nilai i agar mulai dari 10
+i = 10;  
 
 console.log("LOOP KEDUA");
-while (i >= 2) {
-    console.log(i);  // Cetak nilai i dulu
-    i -= 2;          // Kurangi angka dengan 2
+while (i >= 1) {
+    console.log(i);  
+    i -= 1;          
 }
