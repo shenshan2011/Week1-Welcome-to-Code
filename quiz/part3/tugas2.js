@@ -6,14 +6,11 @@
 
 console.log("loop pertama")
 
-for (let i = 1; i < 10; i++) { // loop pertama
+for (let i = 1; i <= 10; i++) { // loop pertama
     console.log(i)
 }
 console.log("loop kedua")
 
-for (let i = 10; i++) { // loop kedua
-    console.log(i)      // sebenar gw pengen biar let nya itu satu aja
-}                       //biar let i nya cuman perlu isi satu kali, tapi
-                        // for harus kayak gini for (/* inisialisasi */; /* kondisi */; /* perubahan */)
-                        // harus tiga, dan gw gak tau cara nya
-                        //by perdana (danaxcb)
+for (let i = 10; i >= 1; i--) { // loop kedua
+    console.log(i)      
+}
