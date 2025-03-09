@@ -10,8 +10,8 @@ let input = 5
 let pattern = "";
 for (let i = 1; i <= 5; i++) {           // Loop baris
   for (let j = 1; j <= i; j++) {         // Loop kolom (bintang per baris)
-    pattern += "*";
-  }
-  pattern += "\n";
+    pattern += "*";                      // btw ini dapet nya dari modulo nested loop di study materials
+  }                                      // asli nya mah gw gak ngerti tapi cuman masukin angka doang
+  pattern += "\n";                       //by:perdana (danaxcb)
 }
 console.log(pattern);
